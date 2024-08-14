@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "scripts": {
+    "lint": "eslint ./",
+    "lint:report": "eslint ./",
+    "test:unit": "jest",
+    "test": "npm i && jest"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.0",
+    "@types/jest": "^27.0.2",
+    "eslint": "^7.15.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-formatter-gitlab": "^2.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^25.2.4",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^27.3.1",
+    "jsdom": "^16.7.0"
+  }
+}
